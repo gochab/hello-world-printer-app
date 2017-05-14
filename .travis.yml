@@ -12,5 +12,5 @@ after_success:
   - PASSWORD=$DOCKER_PASSWORD make docker_push
 deploy:
   provider: heroku
-  app: gosia
+  app: gochab
   api_key: ${HEROKU_API_KEY}
