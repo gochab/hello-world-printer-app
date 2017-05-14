@@ -1,7 +1,7 @@
 Simple Flask App
 ================
 
-Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć 
+Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Rozpocząnając pracę z projektem (wykorzystując virtualenv). Hermetyczne środowisko dla pojedyńczej aplikacji w python-ie:
@@ -20,7 +20,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 - Uruchamianie applikacji:
 
-  :: 
+  ::
 
   	# jako zwykły program
     python main.py
@@ -45,11 +45,14 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
 
 - Integracja z TravisCI:
+ heroku auth:token  - i kopiowac otrzymany numer w travisie
+ uzupelninie pliku .travis.yml o deploy
+ wprowadzenie do travisa uprawnien HEROKU_API_KEY + TOKEN
+ ZMODYFIKOWANIE views.py i odpowiednio test_views.py to github
+ travis - sprawdzenie czy przeszlo
 
-  ::
-
-    ...
-
+- statuscake:
+dodanie testu - url testu to ten po open app z heroku
 
 Pomocnicze
 ==========
@@ -61,10 +64,10 @@ Pomocnicze
     yum install python-pip
     pip install virtualenv
     pip install virtualenvwrapper
-  
+
 - Instalacja docker-a:
 
-  :: 
+  ::
 
     yum remove docker \
         docker-common \
@@ -89,4 +92,3 @@ Materiały
 =========
 
 - https://virtualenvwrapper.readthedocs.io/en/latest/
-
