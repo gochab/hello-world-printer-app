@@ -66,7 +66,7 @@ Pomocnicze
     pip install virtualenvwrapper
 
 - Instalacja docker-a:
-
+- tu sie zatrzymalam
   ::
 
     yum remove docker \
