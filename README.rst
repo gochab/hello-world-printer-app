@@ -8,8 +8,9 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ::
 
-    source /usr/bin/virtualenvwrapper.sh
-    # na UBUNTU podajemy inną scieżkę: source /usr/local/bin/virtualenvwrappe:r.sh  ; jesli nie jestesmy pewni gdzie szukać virtualenvwrapper to komenda: where is virtalenvwrapper
+    source /usr/bin/virtualenvwrapper.sh     - mozna to dodac bezposrednio do BASH poprzez: atom $HOME/ .BASHRC
+
+    # na UBUNTU podajemy inną scieżkę: source /usr/local/bin/virtualenvwrapper.sh  ; jesli nie jestesmy pewni gdzie szukać virtualenvwrapper to komenda: where is virtalenvwrapper
 
     *  mkvirtualenv wsb-simple-flask-app
 
@@ -40,7 +41,7 @@ o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
   ::
 
-    source /usr/bin/virtualenvwrapper.sh
+    source /usr/bin/virtualenvwrapper.sh - to zostalo dodane i trzeba wlaczyc
     workon wsb-simple-flask-app
 
 
@@ -66,7 +67,7 @@ Pomocnicze
     pip install virtualenvwrapper
 
 - Instalacja docker-a:
-- tu sie zatrzymalam
+
   ::
 
     yum remove docker \
